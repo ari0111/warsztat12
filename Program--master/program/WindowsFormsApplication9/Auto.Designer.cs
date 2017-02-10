@@ -61,6 +61,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,8 +80,10 @@
             this.Column7,
             this.Column8,
             this.Column9,
-            this.Column10});
-            this.dataGridView1.Location = new System.Drawing.Point(31, 254);
+            this.Column10,
+            this.Column11,
+            this.Column12});
+            this.dataGridView1.Location = new System.Drawing.Point(183, 254);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -358,6 +362,18 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "Naprawy";
+            this.Column11.Name = "Column11";
+            this.Column11.ReadOnly = true;
+            // 
+            // Column12
+            // 
+            this.Column12.HeaderText = "Data Naprawy";
+            this.Column12.Name = "Column12";
+            this.Column12.ReadOnly = true;
+            // 
             // Auto
             // 
             this.AcceptButton = this.button1;
@@ -431,5 +447,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
     }
 }

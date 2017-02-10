@@ -45,7 +45,9 @@ namespace WindowsFormsApplication9
             dt1.Columns.Add("Data Przyjęcia");
             dt1.Columns.Add("Przebieg");
             dt1.Columns.Add("Firma");
-            dt1.Columns.Add("Prywatny");
+            dt1.Columns.Add("Naprawy");
+            dt1.Columns.Add("Data Naprawy");
+
             ds.Tables.Add(dt1);
             foreach (DataGridViewRow r in dataGridView1.Rows)
             {
@@ -59,6 +61,7 @@ namespace WindowsFormsApplication9
                 row1["Rok Produkcji"] = r.Cells[6].Value;
                 row1["Data Przyjęcia"] = r.Cells[7].Value;
                 row1["Przebieg"] = r.Cells[8].Value;
+                
                 row1["Firma"] = Convert.ToBoolean(r.Cells[9].Value);
                
                 ds.Tables["Samochody"].Rows.Add(row1);
