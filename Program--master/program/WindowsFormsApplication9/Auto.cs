@@ -60,7 +60,7 @@ namespace WindowsFormsApplication9
                 row1["Data Przyjęcia"] = r.Cells[7].Value;
                 row1["Przebieg"] = r.Cells[8].Value;
                 row1["Firma"] = Convert.ToBoolean(r.Cells[9].Value);
-                row1["Prywatny"] = Convert.ToBoolean(r.Cells[10].Value);
+               
                 ds.Tables["Samochody"].Rows.Add(row1);
             }
             ds.WriteXml("samochody.xml");
@@ -140,7 +140,7 @@ namespace WindowsFormsApplication9
                 dataGridView1.Rows[n].Cells[7].Value = textBox8.Text;
                 dataGridView1.Rows[n].Cells[8].Value = textBox7.Text;
                 dataGridView1.Rows[n].Cells[9].Value = checkBox1.Checked == true ? Convert.ToBoolean(1) : Convert.ToBoolean(0);
-                dataGridView1.Rows[n].Cells[10].Value = checkBox2.Checked == true ? Convert.ToBoolean(1) : Convert.ToBoolean(0);
+                
                 textBox1.Text = "";
                 textBox2.Text = "";
                 textBox3.Text = "";
@@ -151,7 +151,7 @@ namespace WindowsFormsApplication9
                 textBox8.Text = "";
                 textBox9.Text = "";
                 checkBox1.Checked = false;
-                checkBox2.Checked = false;
+                
                 ZapisXml();
             }
         }
@@ -186,14 +186,7 @@ namespace WindowsFormsApplication9
                 {
                     dataGridView1.SelectedRows[0].Cells[9].Value = 0;
                 }
-                if (checkBox2.Checked == true)
-                {
-                    dataGridView1.SelectedRows[0].Cells[10].Value = 1;
-                }
-                else
-                {
-                    dataGridView1.SelectedRows[0].Cells[10].Value = 0;
-                }
+                
                 textBox1.Text = "";
                 textBox2.Text = "";
                 textBox3.Text = "";
@@ -240,14 +233,7 @@ namespace WindowsFormsApplication9
             {
                 checkBox1.Checked = false;
             }
-            if (Convert.ToBoolean(dataGridView1.SelectedRows[0].Cells[10].Value) == true)
-            {
-                checkBox2.Checked = true;
-            }
-            else
-            {
-                checkBox2.Checked = false;
-            }
+            
             button1.Enabled = false;
             button3.Enabled = false;
         }
