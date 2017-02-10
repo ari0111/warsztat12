@@ -155,37 +155,7 @@ namespace WindowsFormsApplication9
                 ZapisXml();
             }
         }
-        private void dataGridView1_CellMouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            button2.Enabled = true;
-            textBox1.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
-            textBox2.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
-            textBox3.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
-            textBox6.Text = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
-            textBox5.Text = dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
-            textBox4.Text = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
-            textBox9.Text = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
-            textBox8.Text = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
-            textBox7.Text = dataGridView1.SelectedRows[0].Cells[8].Value.ToString();
-            if (Convert.ToBoolean(dataGridView1.SelectedRows[0].Cells[9].Value) == true)
-            {
-                checkBox1.Checked = true;
-            }
-            else
-            {
-                checkBox1.Checked = false;
-            }
-            if (Convert.ToBoolean(dataGridView1.SelectedRows[0].Cells[10].Value) == true)
-            {
-                checkBox2.Checked = true;
-            }
-            else
-            {
-                checkBox2.Checked = false;
-            }
-            button1.Enabled = false;
-            button3.Enabled = false;
-        }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -250,6 +220,37 @@ namespace WindowsFormsApplication9
             }
         }
 
+        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            button2.Enabled = true;
+            textBox1.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+            textBox2.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
+            textBox3.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+            textBox6.Text = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
+            textBox5.Text = dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
+            textBox4.Text = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
+            textBox9.Text = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
+            textBox8.Text = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
+            textBox7.Text = dataGridView1.SelectedRows[0].Cells[8].Value.ToString();
+            if (Convert.ToBoolean(dataGridView1.SelectedRows[0].Cells[9].Value) == true)
+            {
+                checkBox1.Checked = true;
+            }
+            else
+            {
+                checkBox1.Checked = false;
+            }
+            if (Convert.ToBoolean(dataGridView1.SelectedRows[0].Cells[10].Value) == true)
+            {
+                checkBox2.Checked = true;
+            }
+            else
+            {
+                checkBox2.Checked = false;
+            }
+            button1.Enabled = false;
+            button3.Enabled = false;
+        }
     }
 
     

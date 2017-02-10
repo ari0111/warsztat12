@@ -9,3 +9,14 @@ D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplic
 D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache
 D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
 D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe.config
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.pdb
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csprojResolveAssemblyReference.cache
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Auto.resources
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Form1.resources
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient.resources
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
+C:\Users\bob\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache

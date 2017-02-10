@@ -204,6 +204,7 @@ namespace WindowsFormsApplication9
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             if (checkBox1.Checked == true)
             {
 
@@ -287,7 +288,7 @@ namespace WindowsFormsApplication9
                 txtTelefon.Text = "";
                 txtEmail.Text = "";
                 button2.Enabled = false;
-                ZapisXml();
+                
             }
         
 
