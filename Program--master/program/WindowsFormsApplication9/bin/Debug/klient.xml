@@ -79,5 +79,34 @@
     <Email>dsfdsf</Email>
     <Firma>False</Firma>
   </Klient>
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+  <Klient>
+    <Imie>aaa</Imie>
+    <Nazwisko>gfdgfd</Nazwisko>
+    <NazwaFirmy>1111</NazwaFirmy>
+    <NIP>ghgj</NIP>
+    <Miasto>gfdgfd</Miasto>
+    <Ulica>dfgd</Ulica>
+    <Numer>ghf</Numer>
+    <KodPocztowy>vcbvc</KodPocztowy>
+    <Telefon>hgfhf</Telefon>
+    <Email>hgfgdh</Email>
+    <Firma>True</Firma>
+  </Klient>
+  <Klient>
+    <Imie>ghfghf</Imie>
+    <Nazwisko>ghfghf</Nazwisko>
+    <NazwaFirmy />
+    <NIP />
+    <Miasto>hgfgh</Miasto>
+    <Ulica>ghfhfhg</Ulica>
+    <Numer>vgcgfd</Numer>
+    <KodPocztowy>gchgdf</KodPocztowy>
+    <Telefon>gfgd</Telefon>
+    <Email>cgghfcgh</Email>
+    <Firma>False</Firma>
+  </Klient>
 >>>>>>> origin/master
 </NewDataSet>
