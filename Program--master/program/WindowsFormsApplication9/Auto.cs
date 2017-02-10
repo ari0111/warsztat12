@@ -173,12 +173,12 @@ namespace WindowsFormsApplication9
                 dataGridView1.SelectedRows[0].Cells[0].Value = textBox1.Text;
                 dataGridView1.SelectedRows[0].Cells[1].Value = textBox2.Text;
                 dataGridView1.SelectedRows[0].Cells[2].Value = textBox3.Text;
-                dataGridView1.SelectedRows[0].Cells[3].Value = textBox4.Text;
+                dataGridView1.SelectedRows[0].Cells[3].Value = textBox6.Text;
                 dataGridView1.SelectedRows[0].Cells[4].Value = textBox5.Text;
-                dataGridView1.SelectedRows[0].Cells[5].Value = textBox6.Text;
-                dataGridView1.SelectedRows[0].Cells[6].Value = textBox7.Text;
+                dataGridView1.SelectedRows[0].Cells[5].Value = textBox4.Text;
+                dataGridView1.SelectedRows[0].Cells[6].Value = textBox9.Text;
                 dataGridView1.SelectedRows[0].Cells[7].Value = textBox8.Text;
-                dataGridView1.SelectedRows[0].Cells[8].Value = textBox9.Text;
+                dataGridView1.SelectedRows[0].Cells[8].Value = textBox7.Text;
                 
                 if (checkBox1.Checked == true)
                 {

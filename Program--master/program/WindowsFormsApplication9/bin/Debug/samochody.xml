@@ -4,36 +4,12 @@
     <Marka>Q</Marka>
     <Model>QQ</Model>
     <Nr._x0020_Rejestracyjny>Q</Nr._x0020_Rejestracyjny>
-    <Pojemność_x0020_Silnika>Q</Pojemność_x0020_Silnika>
+    <Pojemność_x0020_Silnika>111</Pojemność_x0020_Silnika>
     <VIN>Q</VIN>
-    <Numer_x0020_Silnika>Q</Numer_x0020_Silnika>
-    <Rok_x0020_Produkcji>Q</Rok_x0020_Produkcji>
+    <Numer_x0020_Silnika>20</Numer_x0020_Silnika>
+    <Rok_x0020_Produkcji>QA</Rok_x0020_Produkcji>
     <Data_x0020_Przyjęcia>Q</Data_x0020_Przyjęcia>
-    <Przebieg>QA</Przebieg>
+    <Przebieg>Q</Przebieg>
     <Firma>True</Firma>
-  </Samochody>
-  <Samochody>
-    <Marka>1</Marka>
-    <Model>2</Model>
-    <Nr._x0020_Rejestracyjny>1</Nr._x0020_Rejestracyjny>
-    <Pojemność_x0020_Silnika>1</Pojemność_x0020_Silnika>
-    <VIN>1</VIN>
-    <Numer_x0020_Silnika>1</Numer_x0020_Silnika>
-    <Rok_x0020_Produkcji>1</Rok_x0020_Produkcji>
-    <Data_x0020_Przyjęcia>1</Data_x0020_Przyjęcia>
-    <Przebieg>1</Przebieg>
-    <Firma>False</Firma>
-  </Samochody>
-  <Samochody>
-    <Marka>OPEL</Marka>
-    <Model>ASTRA</Model>
-    <Nr._x0020_Rejestracyjny>PZ09Y5</Nr._x0020_Rejestracyjny>
-    <Pojemność_x0020_Silnika>2</Pojemność_x0020_Silnika>
-    <VIN>2</VIN>
-    <Numer_x0020_Silnika>2</Numer_x0020_Silnika>
-    <Rok_x0020_Produkcji>2</Rok_x0020_Produkcji>
-    <Data_x0020_Przyjęcia>2</Data_x0020_Przyjęcia>
-    <Przebieg>2</Przebieg>
-    <Firma>False</Firma>
   </Samochody>
 </NewDataSet>
