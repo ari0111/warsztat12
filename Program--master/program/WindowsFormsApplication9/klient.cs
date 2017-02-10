@@ -80,8 +80,6 @@ namespace WindowsFormsApplication9
                     int n = dataGridView1.Rows.Add();
                     dataGridView1.Rows[n].Cells[2].Value = txtNazwaFirmy.Text;
                     dataGridView1.Rows[n].Cells[3].Value = txtNIP.Text;
-
-
                     dataGridView1.Rows[n].Cells[4].Value = txtMiasto.Text;
                     dataGridView1.Rows[n].Cells[5].Value = txtUlica.Text;
                     dataGridView1.Rows[n].Cells[6].Value = txtNumer.Text;
@@ -118,6 +116,8 @@ namespace WindowsFormsApplication9
                 int n = dataGridView1.Rows.Add();
                 dataGridView1.Rows[n].Cells[0].Value = txtImie.Text;
                 dataGridView1.Rows[n].Cells[1].Value = txtNazwisko.Text;
+                dataGridView1.Rows[n].Cells[2].Value = txtNazwaFirmy.Text;
+                dataGridView1.Rows[n].Cells[3].Value = txtNIP.Text;
                 dataGridView1.Rows[n].Cells[4].Value = txtMiasto.Text;
                 dataGridView1.Rows[n].Cells[5].Value = txtUlica.Text;
                 dataGridView1.Rows[n].Cells[6].Value = txtNumer.Text;
