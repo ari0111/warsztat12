@@ -58,6 +58,7 @@ namespace WindowsFormsApplication9
                 row1["Firma"] = Convert.ToBoolean(r.Cells[10].Value);
                 ds.Tables["Klient"].Rows.Add(row1);
             }
+  
             ds.WriteXml("klient.xml");
         }
 
@@ -120,8 +121,8 @@ namespace WindowsFormsApplication9
                 int n = dataGridView1.Rows.Add();
                 dataGridView1.Rows[n].Cells[0].Value = txtImie.Text;
                 dataGridView1.Rows[n].Cells[1].Value = txtNazwisko.Text;
-                dataGridView1.Rows[n].Cells[2].Value = txtNazwaFirmy.Text;
-                dataGridView1.Rows[n].Cells[3].Value = txtNIP.Text;
+                dataGridView1.Rows[n].Cells[2].Value = "";
+                dataGridView1.Rows[n].Cells[3].Value = "";
                 dataGridView1.Rows[n].Cells[4].Value = txtMiasto.Text;
                 dataGridView1.Rows[n].Cells[5].Value = txtUlica.Text;
                 dataGridView1.Rows[n].Cells[6].Value = txtNumer.Text;
@@ -133,6 +134,8 @@ namespace WindowsFormsApplication9
                 dataGridView1.Rows[n].Cells[10].Value = checkBox1.Checked == true ? Convert.ToBoolean(1) : Convert.ToBoolean(0);
                 txtImie.Text = "";
                 txtNazwisko.Text = "";
+                txtNazwaFirmy.Text = "";
+                txtNIP.Text = "";
                 txtMiasto.Text = "";
                 txtUlica.Text = "";
                 txtNumer.Text = "";
@@ -212,7 +215,7 @@ namespace WindowsFormsApplication9
             if (checkBox1.Checked == true)
             {
 
-                if ((txtNazwaFirmy.Text == "") | (txtNIP.Text == "") | (txtMiasto.Text == "") |
+                if ((txtImie.Text == "") | (txtNazwisko.Text == "") | (txtNazwaFirmy.Text == "") | (txtNIP.Text == "") | (txtMiasto.Text == "") |
                       (txtUlica.Text == "") | (txtNumer.Text == "") | (txtKodPocztowy.Text == "") |
                       (txtTelefon.Text == "") | (txtEmail.Text == ""))
 
@@ -253,6 +256,7 @@ namespace WindowsFormsApplication9
                     txtEmail.Text = "";
                     button2.Enabled = false;
                     ZapisXml();
+                    checkBox1.Checked = false;
                 }
             }
             else
@@ -269,8 +273,8 @@ namespace WindowsFormsApplication9
                 button3.Enabled = true;
                 dataGridView1.SelectedRows[0].Cells[0].Value = txtImie.Text;
                 dataGridView1.SelectedRows[0].Cells[1].Value = txtNazwisko.Text;
-                dataGridView1.SelectedRows[0].Cells[2].Value = txtNazwaFirmy.Text;
-                dataGridView1.SelectedRows[0].Cells[3].Value = txtNIP.Text;
+                dataGridView1.SelectedRows[0].Cells[2].Value = "";
+                dataGridView1.SelectedRows[0].Cells[3].Value = "";
                 dataGridView1.SelectedRows[0].Cells[4].Value = txtMiasto.Text;
                 dataGridView1.SelectedRows[0].Cells[5].Value = txtUlica.Text;
                 dataGridView1.SelectedRows[0].Cells[6].Value = txtNumer.Text;
@@ -287,6 +291,8 @@ namespace WindowsFormsApplication9
                 }
                 txtImie.Text = "";
                 txtNazwisko.Text = "";
+                txtNazwaFirmy.Text = "";
+                txtNIP.Text = "";
                 txtMiasto.Text = "";
                 txtUlica.Text = "";
                 txtNumer.Text = "";
@@ -304,6 +310,7 @@ namespace WindowsFormsApplication9
 
     private void dataGridView1_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
+           
             button2.Enabled = true;
             txtImie.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
             txtNazwisko.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
@@ -315,7 +322,7 @@ namespace WindowsFormsApplication9
             txtKodPocztowy.Text = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
             txtTelefon.Text = dataGridView1.SelectedRows[0].Cells[8].Value.ToString();
             txtEmail.Text = dataGridView1.SelectedRows[0].Cells[9].Value.ToString();
-            if (Convert.ToBoolean(dataGridView1.SelectedRows[0].Cells[10].Value = 1))
+            if (Convert.ToBoolean(dataGridView1.SelectedRows[0].Cells[10].Value) == true)
             {
                 checkBox1.Checked = true;
             }
@@ -323,6 +330,7 @@ namespace WindowsFormsApplication9
             {
                 checkBox1.Checked = false;
             }
+
             button1.Enabled = false;
             button3.Enabled = false;
         }

@@ -14,8 +14,8 @@
     <Firma>False</Firma>
   </Klient>
   <Klient>
-    <Imie />
-    <Nazwisko />
+    <Imie>fdsfds</Imie>
+    <Nazwisko>dsfdsf</Nazwisko>
     <NazwaFirmy>Janex sp. z o.o.</NazwaFirmy>
     <NIP>731-131-313-111</NIP>
     <Miasto>Poznań</Miasto>
@@ -24,7 +24,7 @@
     <KodPocztowy>62-000</KodPocztowy>
     <Telefon>123456789</Telefon>
     <Email>asdas@fd.pl</Email>
-    <Firma>True</Firma>
+    <Firma>False</Firma>
   </Klient>
   <Klient>
     <Imie />
@@ -53,22 +53,22 @@
     <Firma>True</Firma>
   </Klient>
   <Klient>
-    <Imie>fdsfd</Imie>
+    <Imie>fdsfd232</Imie>
     <Nazwisko>fdsfds</Nazwisko>
-    <NazwaFirmy />
-    <NIP />
+    <NazwaFirmy>gfdgfd</NazwaFirmy>
+    <NIP>gdfg</NIP>
     <Miasto>fdsfds</Miasto>
     <Ulica>fdsfds</Ulica>
     <Numer>sfds</Numer>
     <KodPocztowy>fdsfds</KodPocztowy>
     <Telefon>fdsfds</Telefon>
     <Email>dsfdsf</Email>
-    <Firma>False</Firma>
+    <Firma>True</Firma>
   </Klient>
   <Klient>
     <Imie>aaa</Imie>
     <Nazwisko>gfdgfd</Nazwisko>
-    <NazwaFirmy>1111</NazwaFirmy>
+    <NazwaFirmy>1111fdsfds</NazwaFirmy>
     <NIP>ghgj</NIP>
     <Miasto>gfdgfd</Miasto>
     <Ulica>dfgd</Ulica>
@@ -79,16 +79,94 @@
     <Firma>True</Firma>
   </Klient>
   <Klient>
-    <Imie>ghfghf</Imie>
-    <Nazwisko>ghfghf</Nazwisko>
+    <Imie>aaa</Imie>
+    <Nazwisko>gfdgfd</Nazwisko>
+    <NazwaFirmy>1111fdsfds</NazwaFirmy>
+    <NIP>ghgj</NIP>
+    <Miasto>gfdgfd</Miasto>
+    <Ulica>dfgd</Ulica>
+    <Numer>ghf</Numer>
+    <KodPocztowy>vcbvc</KodPocztowy>
+    <Telefon>hgfhf</Telefon>
+    <Email>hgfgdh</Email>
+    <Firma>True</Firma>
+  </Klient>
+  <Klient>
+    <Imie>fdfsd</Imie>
+    <Nazwisko>sdfsdfsdfsd</Nazwisko>
+    <NazwaFirmy>Janex sp. z o.o.432</NazwaFirmy>
+    <NIP>731-131-313-111</NIP>
+    <Miasto>sdfsdf</Miasto>
+    <Ulica>fsdfsd</Ulica>
+    <Numer>sdfsdf</Numer>
+    <KodPocztowy>sdfsd</KodPocztowy>
+    <Telefon>sfsdf</Telefon>
+    <Email>sdfsdf</Email>
+    <Firma>True</Firma>
+  </Klient>
+  <Klient>
+    <Imie>fdgfdg</Imie>
+    <Nazwisko>fdgfdg</Nazwisko>
     <NazwaFirmy />
     <NIP />
-    <Miasto>hgfgh</Miasto>
-    <Ulica>ghfhfhg</Ulica>
-    <Numer>vgcgfd</Numer>
-    <KodPocztowy>gchgdf</KodPocztowy>
-    <Telefon>gfgd</Telefon>
-    <Email>cgghfcgh</Email>
+    <Miasto>gfdgfd</Miasto>
+    <Ulica>gdfgfd</Ulica>
+    <Numer>gdfgdf</Numer>
+    <KodPocztowy>dfgfdg</KodPocztowy>
+    <Telefon>dfgdfgdf</Telefon>
+    <Email>gdfgdfg</Email>
+    <Firma>False</Firma>
+  </Klient>
+  <Klient>
+    <Imie>ghfhgf</Imie>
+    <Nazwisko>hgfhgf</Nazwisko>
+    <NazwaFirmy>hgfhfg</NazwaFirmy>
+    <NIP>hgfhgf4343</NIP>
+    <Miasto>hgfhgf</Miasto>
+    <Ulica>gfhgf</Ulica>
+    <Numer>gfhgfh</Numer>
+    <KodPocztowy>hgfhgf</KodPocztowy>
+    <Telefon>gfhfghgf</Telefon>
+    <Email>hgfhgfhgf</Email>
+    <Firma>True</Firma>
+  </Klient>
+  <Klient>
+    <Imie>gfdgdfgdfgdf</Imie>
+    <Nazwisko>gdfgfd</Nazwisko>
+    <NazwaFirmy />
+    <NIP />
+    <Miasto>gfdgdf</Miasto>
+    <Ulica>gfdgdfg</Ulica>
+    <Numer>dfgdf</Numer>
+    <KodPocztowy>dfgfd</KodPocztowy>
+    <Telefon>gdfgf</Telefon>
+    <Email>gdfgfd</Email>
+    <Firma>False</Firma>
+  </Klient>
+  <Klient>
+    <Imie>fdsfdsgfdgdfg</Imie>
+    <Nazwisko>sdfsd</Nazwisko>
+    <NazwaFirmy />
+    <NIP />
+    <Miasto>sdfds</Miasto>
+    <Ulica>sdfsdfdsfds</Ulica>
+    <Numer>fdsfds</Numer>
+    <KodPocztowy>dsfdsf</KodPocztowy>
+    <Telefon>fdsfds</Telefon>
+    <Email>dsfdsfsd</Email>
+    <Firma>False</Firma>
+  </Klient>
+  <Klient>
+    <Imie>432423</Imie>
+    <Nazwisko>23423</Nazwisko>
+    <NazwaFirmy />
+    <NIP />
+    <Miasto>ewrewr</Miasto>
+    <Ulica>rwerwe</Ulica>
+    <Numer>rwer</Numer>
+    <KodPocztowy>rwer</KodPocztowy>
+    <Telefon>werwer</Telefon>
+    <Email>werwer</Email>
     <Firma>False</Firma>
   </Klient>
 </NewDataSet>
