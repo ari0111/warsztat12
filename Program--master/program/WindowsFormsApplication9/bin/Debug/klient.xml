@@ -27,6 +27,8 @@
     <Firma>True</Firma>
   </Klient>
   <Klient>
+    <Imie />
+    <Nazwisko />
     <NazwaFirmy>kkj</NazwaFirmy>
     <NIP>kj</NIP>
     <Miasto>kj</Miasto>
