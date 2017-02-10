@@ -159,9 +159,10 @@ namespace WindowsFormsApplication9
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if ((textBox1.Text == "") | (textBox2.Text == "") | (textBox3.Text == "") |
-                (textBox4.Text == "") | (textBox5.Text == "") | (textBox6.Text == "") |
-                (textBox7.Text == "") | (textBox8.Text == "") | (textBox9.Text == ""))
+            if ((textBox1.Text == "") | (textBox2.Text == "") | (textBox3.Text == "") | (textBox4.Text == "") |
+                      (textBox5.Text == "") | (textBox6.Text == "") | (textBox7.Text == "") |
+                      (textBox8.Text == "") | (textBox9.Text == ""))
+
             {
                 MessageBox.Show("Uzupełnij wszystkie pola!");
             }
@@ -169,15 +170,16 @@ namespace WindowsFormsApplication9
             {
                 button1.Enabled = true;
                 button3.Enabled = true;
-                dataGridView1.Rows[0].Cells[0].Value = textBox1.Text;
-                dataGridView1.Rows[0].Cells[1].Value = textBox2.Text;
-                dataGridView1.Rows[0].Cells[2].Value = textBox3.Text;
-                dataGridView1.Rows[0].Cells[3].Value = textBox6.Text;
-                dataGridView1.Rows[0].Cells[4].Value = textBox5.Text;
-                dataGridView1.Rows[0].Cells[5].Value = textBox4.Text;
-                dataGridView1.Rows[0].Cells[6].Value = textBox9.Text;
-                dataGridView1.Rows[0].Cells[7].Value = textBox8.Text;
-                dataGridView1.Rows[0].Cells[8].Value = textBox7.Text;
+                dataGridView1.SelectedRows[0].Cells[0].Value = textBox1.Text;
+                dataGridView1.SelectedRows[0].Cells[1].Value = textBox2.Text;
+                dataGridView1.SelectedRows[0].Cells[2].Value = textBox3.Text;
+                dataGridView1.SelectedRows[0].Cells[3].Value = textBox4.Text;
+                dataGridView1.SelectedRows[0].Cells[4].Value = textBox5.Text;
+                dataGridView1.SelectedRows[0].Cells[5].Value = textBox6.Text;
+                dataGridView1.SelectedRows[0].Cells[6].Value = textBox7.Text;
+                dataGridView1.SelectedRows[0].Cells[7].Value = textBox8.Text;
+                dataGridView1.SelectedRows[0].Cells[8].Value = textBox9.Text;
+                
                 if (checkBox1.Checked == true)
                 {
                     dataGridView1.SelectedRows[0].Cells[9].Value = 1;
@@ -186,7 +188,6 @@ namespace WindowsFormsApplication9
                 {
                     dataGridView1.SelectedRows[0].Cells[9].Value = 0;
                 }
-                
                 textBox1.Text = "";
                 textBox2.Text = "";
                 textBox3.Text = "";
@@ -196,8 +197,10 @@ namespace WindowsFormsApplication9
                 textBox7.Text = "";
                 textBox8.Text = "";
                 textBox9.Text = "";
+                
                 button2.Enabled = false;
                 ZapisXml();
+                
             }
         }
 

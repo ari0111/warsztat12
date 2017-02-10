@@ -1,19 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <Klient>
-    <Imie>fsdfds</Imie>
-    <Nazwisko>sdfsdfsd</Nazwisko>
-    <NazwaFirmy />
-    <NIP />
-    <Miasto>fsdfsd</Miasto>
-    <Ulica>sdfsdfsd</Ulica>
-    <Numer>fsdfsd</Numer>
-    <KodPocztowy>fsdfsdf</KodPocztowy>
-    <Telefon>sdfsdfsdfs</Telefon>
-    <Email>fsdfsdf</Email>
-    <Firma>False</Firma>
-  </Klient>
-  <Klient>
     <Imie>fdsfds</Imie>
     <Nazwisko>dsfdsf</Nazwisko>
     <NazwaFirmy>Janex sp. z o.o.</NazwaFirmy>
