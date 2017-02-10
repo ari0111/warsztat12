@@ -13,4 +13,28 @@
     <Email>fsdfsdf</Email>
     <Firma>False</Firma>
   </Klient>
+  <Klient>
+    <Imie />
+    <Nazwisko />
+    <NazwaFirmy>Janex sp. z o.o.</NazwaFirmy>
+    <NIP>731-131-313-111</NIP>
+    <Miasto>Poznań</Miasto>
+    <Ulica>Dąbrowskiego 134</Ulica>
+    <Numer>21</Numer>
+    <KodPocztowy>62-000</KodPocztowy>
+    <Telefon>123456789</Telefon>
+    <Email>asdas@fd.pl</Email>
+    <Firma>True</Firma>
+  </Klient>
+  <Klient>
+    <NazwaFirmy>kkj</NazwaFirmy>
+    <NIP>kj</NIP>
+    <Miasto>kj</Miasto>
+    <Ulica>kj</Ulica>
+    <Numer>kj</Numer>
+    <KodPocztowy>kj</KodPocztowy>
+    <Telefon>kj</Telefon>
+    <Email>j</Email>
+    <Firma>True</Firma>
+  </Klient>
 </NewDataSet>

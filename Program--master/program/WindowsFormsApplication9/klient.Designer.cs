@@ -49,11 +49,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtNazwaFirmy = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtNIP = new System.Windows.Forms.TextBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nazwisko = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NazwaFirmy = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -65,6 +60,11 @@
             this.Telefon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Firma = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtNazwaFirmy = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtNIP = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,49 +73,49 @@
             this.txtNazwisko.Location = new System.Drawing.Point(106, 46);
             this.txtNazwisko.Name = "txtNazwisko";
             this.txtNazwisko.Size = new System.Drawing.Size(258, 20);
-            this.txtNazwisko.TabIndex = 0;
+            this.txtNazwisko.TabIndex = 2;
             // 
             // txtMiasto
             // 
             this.txtMiasto.Location = new System.Drawing.Point(106, 72);
             this.txtMiasto.Name = "txtMiasto";
             this.txtMiasto.Size = new System.Drawing.Size(258, 20);
-            this.txtMiasto.TabIndex = 1;
+            this.txtMiasto.TabIndex = 3;
             // 
             // txtUlica
             // 
             this.txtUlica.Location = new System.Drawing.Point(106, 98);
             this.txtUlica.Name = "txtUlica";
             this.txtUlica.Size = new System.Drawing.Size(258, 20);
-            this.txtUlica.TabIndex = 2;
+            this.txtUlica.TabIndex = 4;
             // 
             // txtKodPocztowy
             // 
-            this.txtKodPocztowy.Location = new System.Drawing.Point(106, 124);
+            this.txtKodPocztowy.Location = new System.Drawing.Point(106, 150);
             this.txtKodPocztowy.Name = "txtKodPocztowy";
             this.txtKodPocztowy.Size = new System.Drawing.Size(258, 20);
-            this.txtKodPocztowy.TabIndex = 3;
+            this.txtKodPocztowy.TabIndex = 6;
             // 
             // txtNumer
             // 
-            this.txtNumer.Location = new System.Drawing.Point(106, 150);
+            this.txtNumer.Location = new System.Drawing.Point(106, 124);
             this.txtNumer.Name = "txtNumer";
             this.txtNumer.Size = new System.Drawing.Size(258, 20);
-            this.txtNumer.TabIndex = 4;
+            this.txtNumer.TabIndex = 5;
             // 
             // txtTelefon
             // 
             this.txtTelefon.Location = new System.Drawing.Point(106, 176);
             this.txtTelefon.Name = "txtTelefon";
             this.txtTelefon.Size = new System.Drawing.Size(258, 20);
-            this.txtTelefon.TabIndex = 5;
+            this.txtTelefon.TabIndex = 7;
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(106, 202);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(258, 20);
-            this.txtEmail.TabIndex = 6;
+            this.txtEmail.TabIndex = 8;
             // 
             // label1
             // 
@@ -147,7 +147,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 127);
+            this.label4.Location = new System.Drawing.Point(12, 153);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 13);
             this.label4.TabIndex = 10;
@@ -156,11 +156,12 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 153);
+            this.label5.Location = new System.Drawing.Point(12, 127);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 11;
-            this.label5.Text = "nr Domu";
+            this.label5.Text = "Nr domu";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -194,14 +195,14 @@
             this.txtImie.Location = new System.Drawing.Point(106, 20);
             this.txtImie.Name = "txtImie";
             this.txtImie.Size = new System.Drawing.Size(258, 20);
-            this.txtImie.TabIndex = 14;
+            this.txtImie.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(881, 21);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(86, 23);
-            this.button1.TabIndex = 17;
+            this.button1.TabIndex = 12;
             this.button1.Text = "Dodaj/Zapisz";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -212,7 +213,7 @@
             this.button2.Location = new System.Drawing.Point(881, 50);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(86, 23);
-            this.button2.TabIndex = 18;
+            this.button2.TabIndex = 13;
             this.button2.Text = "Edytuj";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -222,7 +223,7 @@
             this.button3.Location = new System.Drawing.Point(881, 79);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(86, 23);
-            this.button3.TabIndex = 19;
+            this.button3.TabIndex = 14;
             this.button3.Text = "Usuń";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -232,7 +233,7 @@
             this.button4.Location = new System.Drawing.Point(881, 108);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(86, 23);
-            this.button4.TabIndex = 20;
+            this.button4.TabIndex = 15;
             this.button4.Text = "Zakończ";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -260,51 +261,9 @@
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1053, 358);
-            this.dataGridView1.TabIndex = 22;
+            this.dataGridView1.TabIndex = 16;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseDoubleClick);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(801, 25);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(51, 17);
-            this.checkBox1.TabIndex = 23;
-            this.checkBox1.Text = "Firma";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(370, 23);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 13);
-            this.label9.TabIndex = 25;
-            this.label9.Text = "Nazwa Firmy";
-            // 
-            // txtNazwaFirmy
-            // 
-            this.txtNazwaFirmy.Location = new System.Drawing.Point(464, 20);
-            this.txtNazwaFirmy.Name = "txtNazwaFirmy";
-            this.txtNazwaFirmy.Size = new System.Drawing.Size(258, 20);
-            this.txtNazwaFirmy.TabIndex = 24;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(370, 49);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(25, 13);
-            this.label10.TabIndex = 27;
-            this.label10.Text = "NIP";
-            // 
-            // txtNIP
-            // 
-            this.txtNIP.Location = new System.Drawing.Point(464, 46);
-            this.txtNIP.Name = "txtNIP";
-            this.txtNIP.Size = new System.Drawing.Size(258, 20);
-            this.txtNIP.TabIndex = 26;
             // 
             // Column1
             // 
@@ -372,8 +331,51 @@
             this.Firma.Name = "Firma";
             this.Firma.ReadOnly = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(801, 25);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(51, 17);
+            this.checkBox1.TabIndex = 11;
+            this.checkBox1.Text = "Firma";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(370, 23);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(67, 13);
+            this.label9.TabIndex = 25;
+            this.label9.Text = "Nazwa Firmy";
+            // 
+            // txtNazwaFirmy
+            // 
+            this.txtNazwaFirmy.Location = new System.Drawing.Point(464, 20);
+            this.txtNazwaFirmy.Name = "txtNazwaFirmy";
+            this.txtNazwaFirmy.Size = new System.Drawing.Size(258, 20);
+            this.txtNazwaFirmy.TabIndex = 9;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(370, 49);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(25, 13);
+            this.label10.TabIndex = 27;
+            this.label10.Text = "NIP";
+            // 
+            // txtNIP
+            // 
+            this.txtNIP.Location = new System.Drawing.Point(464, 46);
+            this.txtNIP.Name = "txtNIP";
+            this.txtNIP.Size = new System.Drawing.Size(258, 20);
+            this.txtNIP.TabIndex = 10;
+            // 
             // klient
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1077, 598);

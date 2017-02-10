@@ -31,3 +31,14 @@ E:\PROJEKT\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug
 E:\PROJEKT\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient.resources
 E:\PROJEKT\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
 E:\PROJEKT\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe.config
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.pdb
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csprojResolveAssemblyReference.cache
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Auto.resources
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Form1.resources
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient.resources
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
+C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache

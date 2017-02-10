@@ -327,5 +327,10 @@ namespace WindowsFormsApplication9
         {
             Close();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
