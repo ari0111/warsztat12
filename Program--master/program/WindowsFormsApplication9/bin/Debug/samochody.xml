@@ -2,7 +2,7 @@
 <NewDataSet>
   <Samochody>
     <Marka>Wolswagen</Marka>
-    <Model>omega</Model>
+    <Model>fiat</Model>
     <Nr._x0020_Rejestracyjny>7897678</Nr._x0020_Rejestracyjny>
     <Pojemność_x0020_Silnika>1000</Pojemność_x0020_Silnika>
     <VIN>5798716</VIN>
@@ -10,20 +10,6 @@
     <Rok_x0020_Produkcji>2015</Rok_x0020_Produkcji>
     <Data_x0020_Przyjęcia>03,05,68</Data_x0020_Przyjęcia>
     <Przebieg>126980</Przebieg>
-    <Firma>False</Firma>
-    <Prywatny>False</Prywatny>
-  </Samochody>
-  <Samochody>
-    <Marka>Opel </Marka>
-    <Model>omega</Model>
-    <Nr._x0020_Rejestracyjny>7897678</Nr._x0020_Rejestracyjny>
-    <Pojemność_x0020_Silnika>1000</Pojemność_x0020_Silnika>
-    <VIN>5798716</VIN>
-    <Numer_x0020_Silnika>4654kop</Numer_x0020_Silnika>
-    <Rok_x0020_Produkcji>2015</Rok_x0020_Produkcji>
-    <Data_x0020_Przyjęcia>03,05,68</Data_x0020_Przyjęcia>
-    <Przebieg>126980</Przebieg>
-    <Firma>False</Firma>
-    <Prywatny>False</Prywatny>
+    <Firma>True</Firma>
   </Samochody>
 </NewDataSet>

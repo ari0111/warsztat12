@@ -60,7 +60,7 @@ namespace WindowsFormsApplication9
                 row1["Data Przyjęcia"] = r.Cells[7].Value;
                 row1["Przebieg"] = r.Cells[8].Value;
                 row1["Firma"] = Convert.ToBoolean(r.Cells[9].Value);
-                row1["Prywatny"] = Convert.ToBoolean(r.Cells[10].Value);
+               
                 ds.Tables["Samochody"].Rows.Add(row1);
             }
             ds.WriteXml("samochody.xml");
