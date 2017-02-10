@@ -67,7 +67,7 @@ namespace WindowsFormsApplication9
 
             if (checkBox1.Checked == true)
             {
-                if ((txtNazwaFirmy.Text == "") | (txtNIP.Text == "") | (txtMiasto.Text == "") |
+                if ((txtImie.Text == "") | (txtNazwisko.Text == "") | (txtNazwaFirmy.Text == "") | (txtNIP.Text == "") | (txtMiasto.Text == "") |
                    (txtUlica.Text == "") | (txtNumer.Text == "") | (txtKodPocztowy.Text == "") |
                    (txtTelefon.Text == "") | (txtEmail.Text == ""))
                 {
@@ -78,6 +78,8 @@ namespace WindowsFormsApplication9
                 else
                 {
                     int n = dataGridView1.Rows.Add();
+                    dataGridView1.Rows[n].Cells[0].Value = txtImie.Text;
+                    dataGridView1.Rows[n].Cells[1].Value = txtNazwisko.Text;
                     dataGridView1.Rows[n].Cells[2].Value = txtNazwaFirmy.Text;
                     dataGridView1.Rows[n].Cells[3].Value = txtNIP.Text;
                     dataGridView1.Rows[n].Cells[4].Value = txtMiasto.Text;
@@ -89,6 +91,8 @@ namespace WindowsFormsApplication9
 
 
                     dataGridView1.Rows[n].Cells[10].Value = checkBox1.Checked == true ? Convert.ToBoolean(1) : Convert.ToBoolean(0);
+                    txtImie.Text = "";
+                    txtNazwisko.Text = "";
                     txtNazwaFirmy.Text = "";
                     txtNIP.Text = "";
                     txtMiasto.Text = "";
@@ -237,6 +241,8 @@ namespace WindowsFormsApplication9
                     {
                         dataGridView1.SelectedRows[0].Cells[10].Value = 0;
                     }
+                    txtImie.Text = "";
+                    txtNazwisko.Text = "";
                     txtNazwaFirmy.Text = "";
                     txtNIP.Text = "";
                     txtMiasto.Text = "";

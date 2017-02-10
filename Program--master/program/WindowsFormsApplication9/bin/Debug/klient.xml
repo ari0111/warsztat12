@@ -39,4 +39,30 @@
     <Email>j</Email>
     <Firma>True</Firma>
   </Klient>
+  <Klient>
+    <Imie>fdsfsd</Imie>
+    <Nazwisko>sdfds</Nazwisko>
+    <NazwaFirmy>fsdfsd</NazwaFirmy>
+    <NIP>fsdf</NIP>
+    <Miasto>sdfdsf</Miasto>
+    <Ulica>fdsfsd</Ulica>
+    <Numer>dsfdsfds</Numer>
+    <KodPocztowy>fdsfdfsdfds</KodPocztowy>
+    <Telefon>fdsfdsfds</Telefon>
+    <Email>fdsfsd</Email>
+    <Firma>True</Firma>
+  </Klient>
+  <Klient>
+    <Imie>fdsfd</Imie>
+    <Nazwisko>fdsfds</Nazwisko>
+    <NazwaFirmy />
+    <NIP />
+    <Miasto>fdsfds</Miasto>
+    <Ulica>fdsfds</Ulica>
+    <Numer>sfds</Numer>
+    <KodPocztowy>fdsfds</KodPocztowy>
+    <Telefon>fdsfds</Telefon>
+    <Email>dsfdsf</Email>
+    <Firma>False</Firma>
+  </Klient>
 </NewDataSet>
