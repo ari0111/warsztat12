@@ -1,15 +1,27 @@
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <Samochody>
-    <Marka>KJ</Marka>
-    <Model>KJ</Model>
-    <Nr._x0020_Rejestracyjny>KJ</Nr._x0020_Rejestracyjny>
-    <Pojemność_x0020_Silnika>J</Pojemność_x0020_Silnika>
-    <VIN>KJ</VIN>
-    <Numer_x0020_Silnika>KJ</Numer_x0020_Silnika>
-    <Rok_x0020_Produkcji>KJ</Rok_x0020_Produkcji>
-    <Data_x0020_Przyjęcia>KJ</Data_x0020_Przyjęcia>
-    <Przebieg>KJ</Przebieg>
+    <Marka>FTYF</Marka>
+    <Model>GFDGFD</Model>
+    <Nr._x0020_Rejestracyjny>GFDGF</Nr._x0020_Rejestracyjny>
+    <Pojemność_x0020_Silnika>GFDFGD</Pojemność_x0020_Silnika>
+    <VIN>3423</VIN>
+    <Numer_x0020_Silnika>432342</Numer_x0020_Silnika>
+    <Rok_x0020_Produkcji>23342DFGD</Rok_x0020_Produkcji>
+    <Data_x0020_Przyjęcia>GFDGF</Data_x0020_Przyjęcia>
+    <Przebieg>GFDGHF</Przebieg>
     <Firma>True</Firma>
+  </Samochody>
+  <Samochody>
+    <Marka>FTYF</Marka>
+    <Model>GFDGFD</Model>
+    <Nr._x0020_Rejestracyjny>GFDGF</Nr._x0020_Rejestracyjny>
+    <Pojemność_x0020_Silnika>GFDFGD</Pojemność_x0020_Silnika>
+    <VIN>3423</VIN>
+    <Numer_x0020_Silnika>432342</Numer_x0020_Silnika>
+    <Rok_x0020_Produkcji>23342DFGD</Rok_x0020_Produkcji>
+    <Data_x0020_Przyjęcia>GFDGF</Data_x0020_Przyjęcia>
+    <Przebieg>GFDGHF</Przebieg>
+    <Firma>False</Firma>
   </Samochody>
 </NewDataSet>
