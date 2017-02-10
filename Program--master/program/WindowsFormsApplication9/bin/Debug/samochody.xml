@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Samochody>
+    <Marka>fsdfds</Marka>
+    <Model>dsfds</Model>
+    <Nr._x0020_Rejestracyjny>fdsfsdf</Nr._x0020_Rejestracyjny>
+    <Pojemność_x0020_Silnika>fds</Pojemność_x0020_Silnika>
+    <VIN>sdfdsfsd</VIN>
+    <Numer_x0020_Silnika>fsdfds</Numer_x0020_Silnika>
+    <Rok_x0020_Produkcji>fsdf</Rok_x0020_Produkcji>
+    <Data_x0020_Przyjęcia>fds</Data_x0020_Przyjęcia>
+    <Przebieg>fdsfds</Przebieg>
+    <Firma>False</Firma>
+    <Prywatny>False</Prywatny>
+  </Samochody>
+</NewDataSet>

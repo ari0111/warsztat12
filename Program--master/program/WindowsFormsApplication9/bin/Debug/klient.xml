@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Klient>
+    <Imie />
+    <Nazwisko />
+    <NazwaFirmy>dfdsafdsadas</NazwaFirmy>
+    <NIP>fdas</NIP>
+    <Miasto>fdsf</Miasto>
+    <Ulica>fdsf</Ulica>
+    <Numer>fdsfds</Numer>
+    <KodPocztowy>fdsfds</KodPocztowy>
+    <Telefon>fdsfdsfsdfdsfsdf</Telefon>
+    <Email>fdsfsf</Email>
+    <Firma>True</Firma>
+  </Klient>
+  <Klient>
+    <Imie>fdsfd</Imie>
+    <Nazwisko>fdsf</Nazwisko>
+    <NazwaFirmy />
+    <NIP />
+    <Miasto>sfdsf</Miasto>
+    <Ulica>fsfd</Ulica>
+    <Numer>fdsfs</Numer>
+    <KodPocztowy>fdsf</KodPocztowy>
+    <Telefon>fdsfds</Telefon>
+    <Email>fdsfsf</Email>
+    <Firma>True</Firma>
+  </Klient>
+</NewDataSet>

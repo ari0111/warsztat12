@@ -1,0 +1,11 @@
+D:\Program--master\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe.config
+D:\Program--master\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe
+D:\Program--master\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.pdb
+D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csprojResolveAssemblyReference.cache
+D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Auto.resources
+D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Form1.resources
+D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient.resources
+D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
+D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache
+D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
+D:\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb
