@@ -14,8 +14,8 @@
     <Firma>False</Firma>
   </Klient>
   <Klient>
-    <Imie />
-    <Nazwisko />
+    <Imie>sdas</Imie>
+    <Nazwisko>dasdasd</Nazwisko>
     <NazwaFirmy>Janex sp. z o.o.</NazwaFirmy>
     <NIP>731-131-313-111</NIP>
     <Miasto>Poznań</Miasto>
@@ -37,6 +37,19 @@
     <KodPocztowy>kj</KodPocztowy>
     <Telefon>kj</Telefon>
     <Email>j</Email>
+    <Firma>True</Firma>
+  </Klient>
+  <Klient>
+    <Imie>jnasdnj</Imie>
+    <Nazwisko>jn</Nazwisko>
+    <NazwaFirmy>asdas</NazwaFirmy>
+    <NIP>dasda</NIP>
+    <Miasto>jn</Miasto>
+    <Ulica>jn</Ulica>
+    <Numer>jn</Numer>
+    <KodPocztowy>jn</KodPocztowy>
+    <Telefon>jn</Telefon>
+    <Email>jn</Email>
     <Firma>True</Firma>
   </Klient>
 </NewDataSet>

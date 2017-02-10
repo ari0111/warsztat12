@@ -1,15 +1,27 @@
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <Samochody>
-    <Marka>KJ</Marka>
-    <Model>KJ</Model>
-    <Nr._x0020_Rejestracyjny>KJ</Nr._x0020_Rejestracyjny>
-    <Pojemność_x0020_Silnika>J</Pojemność_x0020_Silnika>
-    <VIN>KJ</VIN>
-    <Numer_x0020_Silnika>KJ</Numer_x0020_Silnika>
-    <Rok_x0020_Produkcji>KJ</Rok_x0020_Produkcji>
-    <Data_x0020_Przyjęcia>KJ</Data_x0020_Przyjęcia>
-    <Przebieg>KJ</Przebieg>
+    <Marka>OI</Marka>
+    <Model>IO</Model>
+    <Nr._x0020_Rejestracyjny>OI</Nr._x0020_Rejestracyjny>
+    <Pojemność_x0020_Silnika>OI</Pojemność_x0020_Silnika>
+    <VIN>OI</VIN>
+    <Numer_x0020_Silnika>OI</Numer_x0020_Silnika>
+    <Rok_x0020_Produkcji>OI</Rok_x0020_Produkcji>
+    <Data_x0020_Przyjęcia>OI</Data_x0020_Przyjęcia>
+    <Przebieg>OI</Przebieg>
+    <Firma>True</Firma>
+  </Samochody>
+  <Samochody>
+    <Marka>OI</Marka>
+    <Model>OI</Model>
+    <Nr._x0020_Rejestracyjny>OI</Nr._x0020_Rejestracyjny>
+    <Pojemność_x0020_Silnika>OI</Pojemność_x0020_Silnika>
+    <VIN>OI</VIN>
+    <Numer_x0020_Silnika>OI</Numer_x0020_Silnika>
+    <Rok_x0020_Produkcji>OI</Rok_x0020_Produkcji>
+    <Data_x0020_Przyjęcia>OI</Data_x0020_Przyjęcia>
+    <Przebieg>OI</Przebieg>
     <Firma>True</Firma>
   </Samochody>
 </NewDataSet>
