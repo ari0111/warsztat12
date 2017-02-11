@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Uslugi>
+    <Nazwa>Wymiana Oleju</Nazwa>
+    <Cena>80,00</Cena>
+  </Uslugi>
+  <Uslugi>
+    <Nazwa>Wymiana Opon</Nazwa>
+    <Cena>25,00</Cena>
+  </Uslugi>
+</NewDataSet>

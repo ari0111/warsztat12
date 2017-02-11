@@ -33,5 +33,11 @@ namespace WindowsFormsApplication9
             Auto auto = new Auto();
             auto.Show();
         }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            uslugi form = new uslugi();
+            form.Show();
+        }
     }
 }

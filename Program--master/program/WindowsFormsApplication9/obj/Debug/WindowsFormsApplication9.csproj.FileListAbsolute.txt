@@ -42,3 +42,4 @@ C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsForm
 C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient.resources
 C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
 C:\Users\Sławek\Documents\GitHub\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache
+E:\PROJEKT\warsztat12\Program--master\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.uslugi.resources
