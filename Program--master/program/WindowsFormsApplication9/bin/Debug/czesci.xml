@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Czesci>
+    <Czesc>Tłumik</Czesc>
+    <Producent>Bosch</Producent>
+    <Cena>150</Cena>
+    <Samochod>Renault</Samochod>
+    <Model>Laguna</Model>
+  </Czesci>
+</NewDataSet>

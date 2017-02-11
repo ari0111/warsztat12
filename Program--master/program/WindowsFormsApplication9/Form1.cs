@@ -39,5 +39,11 @@ namespace WindowsFormsApplication9
             uslugi form = new uslugi();
             form.Show();
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            czesci form = new czesci();
+            form.Show();
+        }
     }
 }

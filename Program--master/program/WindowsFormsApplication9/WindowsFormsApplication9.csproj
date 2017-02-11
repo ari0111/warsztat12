@@ -52,6 +52,12 @@
     <Compile Include="Auto.Designer.cs">
       <DependentUpon>Auto.cs</DependentUpon>
     </Compile>
+    <Compile Include="czesci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="czesci.Designer.cs">
+      <DependentUpon>czesci.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </Compile>
     <EmbeddedResource Include="Auto.resx">
       <DependentUpon>Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="czesci.resx">
+      <DependentUpon>czesci.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
